@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pt
+*.bin
+*.gguf
+*.safetensors
+*.npy
+datasets_clean/
+datasets/
+checkpoints/
+veri_vol/
+timmy-vol/
+.env
+.modal.toml
+weights/

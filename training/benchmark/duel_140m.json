@@ -1,0 +1,341 @@
+{
+  "t-base": {
+    "curve": [
+      11.1875,
+      5.4375,
+      3.5156,
+      3.125,
+      4.0312
+    ],
+    "time_s": 42.3,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-lr003": {
+    "curve": [
+      11.1875,
+      4.8125,
+      3.4844,
+      3.1406,
+      4.0
+    ],
+    "time_s": 41.3,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.003,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-lr008": {
+    "curve": [
+      11.1875,
+      6.8438,
+      3.5312,
+      3.2031,
+      4.0625
+    ],
+    "time_s": 38.0,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.008,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-rms010": {
+    "curve": [
+      11.1875,
+      4.7812,
+      3.4688,
+      3.1094,
+      4.0
+    ],
+    "time_s": 38.8,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.1,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-rms020": {
+    "curve": [
+      11.1875,
+      5.8125,
+      3.5,
+      3.1562,
+      4.0
+    ],
+    "time_s": 38.0,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.2,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-b95": {
+    "curve": [
+      11.1875,
+      5.0625,
+      3.5312,
+      3.2031,
+      4.0312
+    ],
+    "time_s": 37.5,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.95,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-b85": {
+    "curve": [
+      11.1875,
+      5.1875,
+      3.4531,
+      3.1406,
+      4.0312
+    ],
+    "time_s": 39.2,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.85,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-no-tnest": {
+    "curve": [
+      11.1875,
+      5.0938,
+      4.0312,
+      3.2812,
+      4.1562
+    ],
+    "time_s": 37.7,
+    "params_m": 113.0,
+    "peak_gb": 1.94,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": false,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-no-graft": {
+    "curve": [
+      11.1875,
+      5.5,
+      3.6562,
+      3.2812,
+      4.125
+    ],
+    "time_s": 36.2,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "ns",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-sign-tnest": {
+    "curve": [
+      11.1875,
+      4.4062,
+      3.6406,
+      3.4062,
+      4.1562
+    ],
+    "time_s": 42.9,
+    "params_m": 113.0,
+    "peak_gb": 1.91,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "sign",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-ns7": {
+    "curve": [
+      11.1875,
+      5.125,
+      3.4844,
+      3.1094,
+      3.9844
+    ],
+    "time_s": 44.7,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 7,
+      "tb2": 0.99
+    }
+  },
+  "t-tb2-90": {
+    "curve": [
+      11.1875,
+      4.5,
+      3.4531,
+      3.2812,
+      4.125
+    ],
+    "time_s": 39.2,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.005,
+      "rms": 0.15,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.9
+    }
+  },
+  "t-gentle2": {
+    "curve": [
+      11.1875,
+      4.4688,
+      3.4375,
+      3.125,
+      4.0
+    ],
+    "time_s": 38.9,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.003,
+      "rms": 0.1,
+      "beta": 0.9,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "t-hot": {
+    "curve": [
+      11.1875,
+      6.2812,
+      3.5781,
+      3.1875,
+      4.0625
+    ],
+    "time_s": 36.0,
+    "params_m": 113.0,
+    "peak_gb": 2.1,
+    "hp": {
+      "kind": "terry",
+      "lr": 0.008,
+      "rms": 0.15,
+      "beta": 0.85,
+      "table": "factored",
+      "tnest": true,
+      "mmat": "graft",
+      "ns": 5,
+      "tb2": 0.99
+    }
+  },
+  "muon-bar": {
+    "curve": [
+      11.1875,
+      4.4375,
+      3.7188,
+      3.3906,
+      4.0938
+    ],
+    "time_s": 35.0,
+    "params_m": 113.0,
+    "peak_gb": 1.94,
+    "hp": {
+      "kind": "muon",
+      "lr": 0.02,
+      "adam_lr": 0.003
+    }
+  }
+}

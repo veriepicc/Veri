@@ -1,0 +1,16 @@
+{
+  "terry_lr0.01_rms0.2_b0.95_e1.0_tsign_tn0_mmns_tr0.0_tb": {
+    "curve": [
+      10.8491
+    ],
+    "time_s": 0.4,
+    "params_m": 7.04
+  },
+  "muon_lr0.02_adam3e-4": {
+    "curve": [
+      10.8491
+    ],
+    "time_s": 0.2,
+    "params_m": 7.04
+  }
+}
